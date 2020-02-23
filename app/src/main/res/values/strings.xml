@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Current Network</string>
+    <string name="accessibility_name">实时网络监测</string>
+</resources>
