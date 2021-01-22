@@ -47,7 +47,7 @@ class NetworkAccessibilityService : AccessibilityService() {
          * @param ip
          * @return
          */
-        fun intIP2StringIP(ip: Int): String? {
+        fun intIP2StringIP(ip: Int): String {
             return (ip and 0xFF).toString() + "." +
                     (ip shr 8 and 0xFF) + "." +
                     (ip shr 16 and 0xFF) + "." +
